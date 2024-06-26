@@ -2,11 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".GameActivity">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,6 +101,8 @@
             tools:text="X"/>
 
 
+
+
     </GridLayout>
 
     <Button
@@ -110,4 +112,13 @@
         android:layout_margin="20dp"
         android:text="Start game"
         android:id="@+id/start_game_btn"/>
+
+
+
+
+
+
+
+
+
 </LinearLayout>
