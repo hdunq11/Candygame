@@ -112,6 +112,13 @@
         android:layout_margin="20dp"
         android:text="Start game"
         android:id="@+id/start_game_btn"/>
+    <Button
+        android:id="@+id/exitGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit Game"
+        android:layout_gravity="center"
+        />
 
 
 
